@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --cor-titulo: #E7D4B5;
+    --cor-corpo: #F6E6CB;
+}
+
+body {
+    background-image: url(./style/cripto.jpg);
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    color: var(--cor-titulo);
+    padding: 1rem;
+    text-align: center;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.linha {
+    color: var(--cor-corpo);
+}
+
+.entrada {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    background-color: transparent;
+    color: var(--cor-corpo);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+}
+
+textarea[readonly] {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#botoes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.buttons button {
+    background-color: var(--cor-corpo);
+    border-radius: 10px;
+    margin: 0.5rem;
+    padding: 1rem 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
